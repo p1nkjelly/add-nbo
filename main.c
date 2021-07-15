@@ -26,5 +26,8 @@ int main(int argc, char* argv[]) {
 
     printf("%u(0x%x) + %u(0x%x) = %u(0x%x)\n", f1, f1, f2, f2, result, result);
 
+    fclose(file1);
+    fclose(file2);
+
     return 0;
 }
